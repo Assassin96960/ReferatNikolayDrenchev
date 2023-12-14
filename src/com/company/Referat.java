@@ -1,6 +1,6 @@
 package com.company;
 
-public class Referat extends Document{
+public class Referat extends Document implements Cloneable{
     Author author;
     String topic;
     int countPages;
